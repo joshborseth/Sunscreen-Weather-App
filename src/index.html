@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body class="bg-black">
+    <img id="flames" src="flames.png" class="bg hidden" alt="" />
+
+    <img id="sunny" src="sunny.jpg" class="bg hidden" alt="" />
+
+    <img id="overcast" src="overcast.jpg" class="bg hidden" alt="" />
+
+    <div class="flex flex-col mt-20">
+      <div class="flex flex-row text-white temp_text">
+        <div class="text-9xl" id="temp"></div>
+        <div>&#8451;</div>
+      </div>
+    </div>
+
+    <div class="text-white temp_text mt-20 text-3xl">
+      <h1 id="sunscreen-text"></h1>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
